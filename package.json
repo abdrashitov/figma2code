@@ -1,0 +1,41 @@
+{
+  "name": "figma2code",
+  "author": {
+    "name": "Pavel Abdrashitov",
+    "email": "pavel.abdrashitov@gmail.com",
+    "url": "https://abdrashitov.ru"
+  },
+  "version": "1.0.0",
+  "private": false,
+  "license": "SEE LICENSE IN license.txt",
+  "scripts": {
+    "start": "webpack serve --config webpack.conf.js",
+    "build": "webpack --config webpack.conf.js",
+    "style": "prettier --write src typings.d.ts"
+  },
+  "resolutions": {
+    "@types/react": "17.0.39"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "dotenv": "^16.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.3",
+    "prettier": "^2.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "terser-webpack-plugin": "^5.3.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
